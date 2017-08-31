@@ -1,0 +1,6 @@
+1简单的打包教程
+首先安装cnpm install -g webpack
+还需要安装cnpm intsall css-loader style-loader 在文件主目录下安装（之前需要写好app.js）
+还需呀build.js 主入口及打包后的文件
+打包方式是 webpack app.js build.js
+app.js是需要打包的文件如 require("style!css!css.css")由于webpack2不支持style!写法所以style-loader! require("./src/js.js")
